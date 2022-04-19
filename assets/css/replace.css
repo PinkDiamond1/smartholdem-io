@@ -1,0 +1,159 @@
+.tim-row{
+    margin-bottom: 20px;
+}
+
+.tim-white-buttons {
+    background-color: #777777;
+}
+.typography-line{
+    padding-left: 25%;
+    margin-bottom: 35px;
+    position: relative;
+    display: block;
+    width: 100%;
+}
+.typography-line span{
+    color: #c0c1c2;
+    display: block;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 13px;
+    left: 0;
+    position: absolute;
+    width: 260px;
+    text-transform: none;
+}
+.tim-row{
+    padding-top: 60px;
+}
+.tim-row h3{
+    margin-top: 0;
+}
+
+.offline-doc .page-header:before {
+  content: "";
+  background: rgba(0,0,0,.75);
+}
+
+.offline-doc .page-header{
+  display: flex;
+  align-items: center;
+}
+
+.offline-doc .footer{
+  position: absolute;
+  width: 100%;
+  background: transparent;
+  bottom: 0;
+  color: #fff;
+  z-index: 1;
+}
+
+#map {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+
+section {
+    border-radius: 0 !important;
+}
+
+.section-dark {
+    overflow-x:hidden;
+    border-radius: 0 !important;
+    color: #ffffff;
+    width:100%;
+    padding:25px;
+    background: #02001d;
+    background: -moz-linear-gradient(45deg,  #003d7a 0%, #02001d 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg,  #003d7a 0%,#02001d 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg,  #003d7a 0%,#02001d 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#003d7a', endColorstr='#02001d',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.section-transparent {
+    overflow-x:hidden;
+    border-radius: 0 !important;
+    color: #ffffff;
+    width:100%;
+    padding:25px;
+    background: transparent;
+}
+
+.section-dark h1, .section-dark h3, .section-dark ul li, .section-dark p {
+    color: #fff !important;
+}
+
+.section-white {
+    background: #ffffff !important;
+    color: #000000;
+    width:100%;
+    padding:25px;
+}
+
+.section-white h1, .section-white h2, .section-white h3, .section-white h4, .section-white ul li, .section-white p, .section-white th, .section-white td {
+    color: #000 !important;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #374146 !important;
+    border: 1px solid #5e5b53;
+}
+::-webkit-scrollbar-corner {
+    background-color: #111;
+}
+
+::-webkit-scrollbar, -moz-scrollbar {
+    width: 7px;
+    height: 7px;
+    background-color: #fff;
+}
+
+.pointer {
+    cursor:pointer;
+}
+
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+
+.navbar-custom, .topnav, .content-page {
+background: #100a26 !important;
+color: #fff;
+}
+
+.navbar-custom a {
+
+}
+
+.navbar-custom {
+    background-color: transparent;
+}
+
+
+
+.carousel {
+    background: #1e1e2f !important;
+    border-bottom: 2px solid #009ded !important;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+.card, .btn-lg, .btn {
+    border-radius: 0 !important;
+}
+
+.main-panel[data="vue"] {
+    border-top: 2px solid #009ded !important; /*#00bb75*/
+}
