@@ -120,21 +120,6 @@ export default {
                 file: 'ru.js',
                 name: 'Русский',
             },
-            {
-                code: 'zh',
-                file: 'zh.js',
-                name: '简体中文',
-            },
-            {
-                code: 'es',
-                file: 'es.js',
-                name: 'Español',
-            },
-            {
-                code: 'de',
-                file: 'de.js',
-                name: 'Deutsch',
-            },
             /*
           {
             code: 'ar',
