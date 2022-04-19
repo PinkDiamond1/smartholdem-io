@@ -8,7 +8,7 @@
   >
     <div slot="brand" class="navbar-wrapper">
 
-      <nuxt-link class="ml-1 nav-link" :to="localePath('/')"><img class="xbts-logo" src="/logo.svg" style="border-radius: 0;"/></nuxt-link>
+      <nuxt-link class="ml-1 nav-link text-success" :to="localePath('/')"><img class="sth-logo" src="/icon.png" style="border-radius: 0;"/> SmartHoldem</nuxt-link>
     </div>
 
 
@@ -279,6 +279,10 @@ export default {
 };
 </script>
 <style scoped>
+.sth-logo {
+  width: 26px;
+  height:26px;
+}
 .top-navbar {
   top: 0px;
 }
